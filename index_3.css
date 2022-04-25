@@ -1,0 +1,45 @@
+body{
+    background-color: #181f29;
+    color: #989898;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    color: #989898;
+}
+
+.des{
+    border: 0.3rem solid #090d13;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.Descendent p{
+    border : 0.2rem solid #090d13;
+    border-radius: 0.5rem;
+    background-color: #090d13;
+    width: fit-content;
+}
+
+.Child > p{
+    border : 0.2rem solid #090d13;
+    border-radius: 0.5rem;
+    background-color: #090d13;
+    width: fit-content;
+}
+
+.Sibling + p{
+    border : 0.2rem solid #090d13;
+    border-radius: 0.5rem;
+    background-color: #090d13;
+    width: fit-content;
+}
+
+.General_Sibling ~ p{
+    border : 0.2rem solid #090d13;
+    border-radius: 0.5rem;
+    background-color: #090d13;
+    width: fit-content;
+}

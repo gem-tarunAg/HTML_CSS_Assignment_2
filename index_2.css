@@ -1,0 +1,11 @@
+body{
+    background-color: #181f29;
+    color: #989898;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    color: #989898;
+}
+

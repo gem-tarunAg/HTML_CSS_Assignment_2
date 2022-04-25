@@ -1,0 +1,19 @@
+body{
+    background-color: #181f29;
+    color: #989898;
+}
+
+#t1{
+    border : 0.2rem solid #0d1521;
+    border-radius: 0.5rem;
+    background-color: #090d13;
+    width: 100px;
+    height: 100px;
+    transition: width 2s height 4s;
+    transition-timing-function: linear;
+}
+
+#t1:hover{
+    width: 400px;
+    height: 400px;
+}
