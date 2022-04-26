@@ -9,3 +9,39 @@ a{
     color: #989898;
 }
 
+#box{
+    border : 0.2rem solid #0d1521;
+    border-radius: 0.5rem;
+    background-color: #090d13;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+
+#box .heading{
+    font-family: 'Calibri';
+    font-size: 3rem;
+}
+
+#box .content{
+    font-family: 'Franklin Gothic';
+    font-size: 1rem;
+}
+
+#box .boxes{
+    border: 0.2rem solid #989898;
+    border-radius: 0.3rem;
+    width: fit-content;
+    padding: 0.3rem;
+    background-color: aliceblue;
+    margin: 2rem;
+}
+
+#box .boxes #p1{
+    background-color: salmon;
+
+}
+
+#box .boxes #p2{
+    background-color: aquamarine;
+}

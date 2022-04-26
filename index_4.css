@@ -3,17 +3,45 @@ body{
     color: #989898;
 }
 
-#t1{
+.box{
     border : 0.2rem solid #0d1521;
     border-radius: 0.5rem;
     background-color: #090d13;
-    width: 100px;
-    height: 100px;
-    transition: width 2s height 4s;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    margin: 1rem;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+
+#t1{
+    transition: width 2s, height 2s;
     transition-timing-function: linear;
 }
 
 #t1:hover{
-    width: 400px;
-    height: 400px;
+    width: 10rem;
+    height: 10rem;
+}
+
+
+
+#t2{
+    transition: width 4s linear 1s;
+}
+#t2:hover{
+    width: 12rem;
+}
+
+#t3{
+    transition: width 2s, height 4s, transform 3s;
+}
+
+#t3:hover{
+    width: 10rem;
+    height: 10rem;
+    transform: rotate(180deg);
 }
